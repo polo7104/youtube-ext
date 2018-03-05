@@ -10,7 +10,7 @@ list = ["https://www.youtube.com/watch?v=JB-vcBj_X5o"]
 # list.append("https://www.youtube.com/watch?v=aW4ebaprPnw")
 # list.append("https://www.youtube.com/watch?v=ZEdZqZy9Yr0")
 
-down_dir = "F:\음악\youtube-mp3"
+down_dir = "folder location"
 for i in range(len(list)):
     youtube = pytube.YouTube(list[i])
     default_filename = youtube.streams.filter(progressive=True, file_extension="mp4").order_by("resolution").desc().first().default_filename
