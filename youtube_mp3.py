@@ -4,11 +4,6 @@ import pytube
 
 list = ["https://www.youtube.com/watch?v=JB-vcBj_X5o"]
 # list.append("https://www.youtube.com/watch?v=0RGIIBLI3rI")
-# list.append("https://www.youtube.com/watch?v=tEpLqkMRY6k")
-# list.append("https://www.youtube.com/watch?v=AdjFL1xr4K8")
-# list.append("https://www.youtube.com/watch?v=5dHcVjj_Kq0")
-# list.append("https://www.youtube.com/watch?v=aW4ebaprPnw")
-# list.append("https://www.youtube.com/watch?v=ZEdZqZy9Yr0")
 
 down_dir = "folder location"
 for i in range(len(list)):
